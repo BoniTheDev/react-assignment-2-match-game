@@ -1,0 +1,26 @@
+.each-tab-item {
+  list-style-type: none;
+  min-width: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-item-btn {
+  min-width: 50px;
+  max-width: 100px;
+  height: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.active-tab-btn {
+  border-bottom: 2px solid #fec653;
+  color: #fec653;
+}
